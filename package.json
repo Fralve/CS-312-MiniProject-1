@@ -1,0 +1,16 @@
+{
+  "name": "mini-blog",
+  "version": "1.0.0",
+  "description": "A simple blog app using Node.js, Express, and EJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nova Grant",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.21.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
