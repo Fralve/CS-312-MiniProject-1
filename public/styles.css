@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.create-post, .edit-post, .posts {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px 5px 0 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.post {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.meta {
+    font-size: 0.85em;
+    color: #777;
+}
